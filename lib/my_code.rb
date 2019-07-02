@@ -63,10 +63,17 @@ def reduce_to_any_true(source_array)
   while i < source_array.length
     if source_array[i]
       bool = true
+<<<<<<< HEAD
     end 
     i += 1
     bool
   end 
   bool
 end 
+=======
+      i = source_array.length
+    end 
+    bool
+  end 
+>>>>>>> 219385fccdeec9fa282244e8d36846d8598cf137
   
